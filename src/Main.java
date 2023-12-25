@@ -8,7 +8,8 @@ public class Main {
             System.out.println("Получено бонусов " + bonus);
             System.out.println("Баланс счета " + (startAmount + addAmount + bonus));
         } else {
-            System.out.println("Баланс счета " + startAmount + addAmount);
+            System.out.println("Получено бонусов " + "0");
+            System.out.println("Баланс счета " + (startAmount + addAmount));
         }
     }
 }
